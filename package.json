@@ -1,0 +1,47 @@
+{
+  "name": "utl",
+  "displayName": "BLOX UTL",
+  "description": "BLOX UTL language support for Visual Studio Code",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "keywords": [
+    "utl",
+    "blox",
+    "town news"
+  ],
+  "icon": "logo.jpg",
+  "contributes": {
+    "languages": [
+      {
+        "id": "utl",
+        "aliases": [
+          "UTL",
+          "utl"
+        ],
+        "extensions": [
+          ".utl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "utl",
+        "scopeName": "source.utl",
+        "path": "./syntaxes/utl.tmLanguage"
+      },
+      {
+        "language": "utl",
+        "scopeName": "text.html.utl",
+        "path": "./syntaxes/html+utl.tmLanguage"
+      }
+    ]
+  }
+}
