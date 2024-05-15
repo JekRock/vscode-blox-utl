@@ -191,7 +191,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:IF|ELSIF|ELSE|UNLESS|SWITCH|CASE)\b</string>
+					<string>\b(?i:IF|ELSIF|ELSE|THEN|UNLESS|SWITCH|CASE)\b</string>
 					<key>name</key>
 					<string>keyword.control.tt.condition</string>
 				</dict>
