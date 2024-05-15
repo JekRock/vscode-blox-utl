@@ -30,7 +30,7 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>HTML+TT2</string>
+	<string>HTML+UTL</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -171,7 +171,7 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.tt2</string>
+			<string>source.utl</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -380,7 +380,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.tt2</string>
+					<string>source.utl</string>
 				</dict>
 			</array>
 		</dict>
@@ -483,7 +483,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.tt2</string>
+					<string>source.utl</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -607,7 +607,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.tt2</string>
+					<string>source.utl</string>
 				</dict>
 				<dict>
 					<key>include</key>
