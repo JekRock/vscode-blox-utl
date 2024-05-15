@@ -60,13 +60,13 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>=DISABLED=\w+(\(.*?\))?(\.\w+(\(.*?\))?)+</string>
+					<string>=(?i:DISABLED)=\w+(\(.*?\))?(\.\w+(\(.*?\))?)+</string>
 					<key>name</key>
 					<string>variable.other.tt.dotop</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>=DISABLED=\w+(\(.*?\))</string>
+					<string>=(?i:DISABLED)=\w+(\(.*?\))</string>
 					<key>name</key>
 					<string>variable.other.tt.args</string>
 				</dict>
@@ -107,7 +107,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bGET|SET|CALL|DEFAULT\b</string>
+					<string>\b(?i:GET|SET|CALL|DEFAULT)\b</string>
 					<key>name</key>
 					<string>keyword.other.tt.variable</string>
 				</dict>
@@ -121,7 +121,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>\b(INCLUDE|PROCESS|INSERT|WRAPPER)\s+(\S+)</string>
+					<string>\b(?i:INCLUDE|PROCESS|INSERT|WRAPPER)\s+(\S+)</string>
 					<key>name</key>
 					<string>keyword.other.tt.template</string>
 				</dict>
@@ -135,31 +135,31 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>\bUSE\s+(\S+?)(?=\(|\s)</string>
+					<string>\b(?i:USE)\s+(\S+?)(?=\(|\s)</string>
 					<key>name</key>
 					<string>keyword.other.tt.plugin</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bMETA\b</string>
+					<string>\b(?i:META)\b</string>
 					<key>name</key>
 					<string>keyword.other.tt.metadata</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bTAGS\b</string>
+					<string>\b(?i:TAGS)\b</string>
 					<key>name</key>
 					<string>keyword.other.tt.input</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bDEBUG\b</string>
+					<string>\b(?i:DEBUG)\b</string>
 					<key>name</key>
 					<string>keyword.other.tt.debug</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bCLEAR\b</string>
+					<string>\b(?i:CLEAR)\b</string>
 					<key>name</key>
 					<string>keyword.other.tt.output</string>
 				</dict>
@@ -179,13 +179,13 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>\bBLOCK\s+(\S+)</string>
+					<string>\b(?i:BLOCK)\s+(\S+)</string>
 					<key>name</key>
 					<string>keyword.control.tt.block</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bFOR(EACH)?|WHILE|LAST|NEXT\b</string>
+					<string>\b(?i:FOR(EACH)?|WHILE|LAST|NEXT)\b</string>
 					<key>name</key>
 					<string>keyword.control.tt.loop</string>
 				</dict>
@@ -197,7 +197,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\bTRY|CATCH|THROW|FINAL\b</string>
+					<string>\b(?i:TRY|CATCH|THROW|FINAL)\b</string>
 					<key>name</key>
 					<string>keyword.control.tt.error</string>
 				</dict>
@@ -211,7 +211,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>\bFILTER\s+(\S+)</string>
+					<string>\b(?i:FILTER)\s+(\S+)</string>
 					<key>name</key>
 					<string>keyword.control.tt.filter</string>
 				</dict>
@@ -235,7 +235,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(?i:IN)\b</string>
+					<string>\b(?i:IN|AS)\b</string>
 					<key>name</key>
 					<string>keyword.operator.tt.misc</string>
 				</dict>
